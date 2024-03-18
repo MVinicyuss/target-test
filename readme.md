@@ -2,12 +2,12 @@
 
 ## Questão 3
 
-Letra a) É a sequencia de Fibonacci e o próximo número é 13.
-Letra b) É a sequencia de 2 elevado a n, com n diferente de 0, o próximo número é 128.
-Letra c) É a sequencia de cada inteiro ao quadrado, o próximo número é 49.
-Letra d) É a sequencia de cada número par ao quadrado, o próximo número é 100.
-Letra e) A soma dos dois números anteriores é igual ao novo valor, o próximo número é 13.
-Letra f) Não segue um padrão exato, o próximo número pode ser 20.
+Letra a) É a sequencia de Fibonacci e o próximo número é 13.<br/>
+Letra b) É a sequencia de 2 elevado a n, com n diferente de 0, o próximo número é 128.<br/>
+Letra c) É a sequencia de cada inteiro ao quadrado, o próximo número é 49.<br/>
+Letra d) É a sequencia de cada número par ao quadrado, o próximo número é 100.<br/>
+Letra e) A soma dos dois números anteriores é igual ao novo valor, o próximo número é 13.<br/>
+Letra f) Não segue um padrão exato, o próximo número pode ser 20.<br/>
 
 ## Questão 4
 
