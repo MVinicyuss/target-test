@@ -1,10 +1,24 @@
-let soma = 0;
-let k = 0;
-let indice = 13;
+let numTest = 13 //Número a ser testado
 
-do{
-  soma += k;
-  k++;
-}while (k <= indice) 
+function PertenceAFib(numTest){
+    let i   =  1    
 
-console.log(soma);
+    let FibPrim    = 0
+    let FibPenul    = 1
+    let FibUltim    = 0
+
+    while(i > 0){
+
+        FibPrim = FibPenul + FibUltim
+        FibUltim = FibPenul
+        FibPenul = FibPrim
+
+        if(FibPrim === numTest){
+            return "Pertence a Sequência";
+        }else if(FibPrim > numTest){
+            return "Não Pertence a Sequência";
+        }
+    }
+}
+
+console.log(numTest + " " + PertenceAFib(numTest))

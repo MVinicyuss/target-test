@@ -1,15 +1,22 @@
 # Respostas para Questões
 
-## Questão 3
+Para as questões de codigo, rodar 
+```sh
+node Q1.js
+node Q2.js
+node Q3.js
+```
 
-Letra a) É a sequencia de Fibonacci e o próximo número é 13.<br/>
+## Questão 4
+
+Letra a) Soma mais 2 para o próximo número<br/>
 Letra b) É a sequencia de 2 elevado a n, com n diferente de 0, o próximo número é 128.<br/>
 Letra c) É a sequencia de cada inteiro ao quadrado, o próximo número é 49.<br/>
 Letra d) É a sequencia de cada número par ao quadrado, o próximo número é 100.<br/>
-Letra e) A soma dos dois números anteriores é igual ao novo valor, o próximo número é 13.<br/>
+Letra e)  É a sequencia de Fibonacci e o próximo número é 13.<br/>
 Letra f) Não segue um padrão exato, o próximo número pode ser 20.<br/>
 
-## Questão 4
+## Questão 5
 
 Primeira ida:
 Ligo o interruptor 1, deixo um tempo aceso, apago o mesmo, acendo o 2 e vou verificar a sala de uma das lâmpadas.

@@ -1,24 +1,11 @@
-let numTest = 13 //Número a ser testado
+let string = "Uma string qualquer";
+let arrayDaString = string.toUpperCase().split('');
+let numeroDeA = 0;
 
-function PertenceAFib(numTest){
-    let i   =  1    
-
-    let FibPrim    = 0
-    let FibPenul    = 1
-    let FibUltim    = 0
-
-    while(i > 0){
-
-        FibPrim = FibPenul + FibUltim
-        FibUltim = FibPenul
-        FibPenul = FibPrim
-
-        if(FibPrim === numTest){
-            return "Pertence a Sequência";
-        }else if(FibPrim > numTest){
-            return "Não Pertence a Sequência";
-        }
+arrayDaString.forEach(element => {
+    if(element === 'A'){
+        numeroDeA++;
     }
-}
+});
 
-console.log(numTest + " " + PertenceAFib(numTest))
+console.log(numeroDeA);
